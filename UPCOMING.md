@@ -68,6 +68,10 @@ Ultra-lightweight cross-platform Markdown preview app built with Rust and the sy
 (web: [`noteriv.com`](https://www.noteriv.com), open source @ github [`thejacedev/Noteriv`](https://github.com/thejacedev/Noteriv)) -
 Local-first Markdown note-taking app built with Tauri 2 (Rust + Next.js). Organizes `.md` files into vaults with wiki-links, backlinks, a force-directed graph view, kanban board, daily notes, full-text search, KaTeX math, Mermaid diagrams, and a `[TOC]` widget. Extensible via a plugin API and custom CSS themes, with Git and WebDAV sync. Cross-platform (Linux, macOS, Windows), MIT licensed.
 
+**PerMark**
+(web: [`edelmarschneider.github.io/permark`](https://edelmarschneider.github.io/permark/), open source @ github [`EdelmarSchneider/permark`](https://github.com/EdelmarSchneider/permark)) -
+Open any Markdown (.md) file as a clean page, with tables, diagrams and math. Keep notes that save themselves. Working with AI? See what it changed since you last looked, and keep or revert each change. AI speeds the work. Your vision steers it.
+
 **PinkDown**
 (web: [`3xian.github.io/PinkDown`](https://3xian.github.io/PinkDown/), open source @ github [`3xian/PinkDown`](https://github.com/3xian/PinkDown)) -
 Fast native split-pane Markdown editor and reader for Windows and macOS, built in Rust with egui. Features live preview, UTF-8 and UTF-16 decoding, drag-and-drop file opening, system font selection, and checksum-verified in-app updates. MIT licensed.
@@ -154,7 +158,3 @@ Open-source Markdown presentation renderer/exporter for turning `.md` decks into
 **License**
 
 The awesome list is released under [the Creative Commons Zero](https://creativecommons.org/publicdomain/zero/1.0/), meaning it is dedicated to the public domain. Use it as you please with no restrictions whatsoever.
-
-**PerMark**
-(web: [`edelmarschneider.github.io/permark`](https://edelmarschneider.github.io/permark/), open source @ github [`EdelmarSchneider/permark`](https://github.com/EdelmarSchneider/permark)) -
-*Read what your AI writes. Write what it reads.* As software engineering shifts from typing code to planning, formalizing specifications, and directing AI agents, Markdown has become the shared language between human and machine—and PerMark is the desktop IDE built for that workflow. It closes the gap between developers and any AI agent with live block-level highlights as files change on disk, removal markers, unread tracking across commits and git worktrees, section and tag search, inline passage comments, and an optional local MCP server so agents see what you are reading and resolve your feedback. At the same time, it opens any standalone `.md` file as a book-like page (tables, task lists, Mermaid diagrams, KaTeX math, ~190 highlighted languages, image/audio/video viewer), offers block-preserving Visual (WYSIWYG) and Source editing, and keeps self-saving notes for drafting prompts and maturing ideas. Built with Tauri 2 (Rust + Svelte 5) for Windows, macOS, and Linux; dual-licensed MIT/Apache-2.0.
